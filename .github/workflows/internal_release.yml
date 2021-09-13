@@ -57,5 +57,5 @@ jobs:
       - name: Publish package
         run: gradle publish
         env:
-          GITHUB_USER: ${{ github.actor }}
+          USERNAME: ${{ github.actor }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
