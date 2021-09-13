@@ -20,10 +20,10 @@ allprojects {
         mavenCentral()
         maven {
             name = "AndroidLibForArtifactory"
-            url = uri("https://maven.pkg.github.com/chenzhang2006/AndroidLibForArtifactory")
+            url = uri("https://maven.pkg.github.com/skyflow-tejesh-reddy/CDSample")
             credentials {
                 username = System.getenv('GITHUB_USER') ?: project.properties['GITHUB_USER']
-                password = System.getenv('GITHUB_TOKEN') ?: project.properties['GITHUB_TOKEN']
+                password = System.getenv('TOKEN') ?: project.properties['GITHUB_TOKEN']
             }
         }
     }
