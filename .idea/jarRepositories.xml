@@ -31,5 +31,10 @@
       <option name="name" value="AndroidLibForArtifactory" />
       <option name="url" value="https://maven.pkg.github.com/chenzhang2006/AndroidLibForArtifactory" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="AndroidLibForArtifactory" />
+      <option name="name" value="AndroidLibForArtifactory" />
+      <option name="url" value="https://maven.pkg.github.com/skyflow-tejesh-reddy/CDSample" />
+    </remote-repository>
   </component>
 </project>
