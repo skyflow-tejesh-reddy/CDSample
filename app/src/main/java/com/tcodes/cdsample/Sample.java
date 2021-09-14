@@ -4,5 +4,6 @@ public class Sample {
 
     public void printSample() {
         System.out.println("Printing Sample");
+
     }
 }
